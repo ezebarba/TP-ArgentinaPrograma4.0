@@ -1,0 +1,228 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* #f7f7f7; */
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #23527c;
+    text-decoration: underline;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    background-color: #f7f7f7;
+  }
+
+  .navbar-expand-lg {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    display: flex;
+    padding: .5rem 1rem;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: larger;
+}
+
+  /* Header */
+  #header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  #header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #header .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  #header .nav-link {
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  /* Acerca de */
+  #about {
+    padding: 80px 0;
+  }
+  
+  #about h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  #about p {
+    max-width: 750px;
+    margin-bottom: 60px;
+  }
+  
+  /* Nuestros vehículos */
+  #our-cars {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  #our-cars h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  #our-cars .card {
+    margin-bottom: 30px;
+  }
+  
+  #our-cars .card img {
+    max-width: 100%;
+  }
+  
+  #our-cars .card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #our-cars .card p {
+    margin-bottom: 10px;
+  }
+  
+  #our-cars .card .btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  
+  /* Por qué elegirnos */
+  #why-us {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  #why-us h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  #why-us .col-lg-6 {
+    text-align: center;
+  }
+
+/* ¿Quienes somos? */
+  #quienes-somos {
+/*     padding: 40px 0; */
+    text-align: justify;
+  }
+
+  #quienes-somos h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center
+  }
+
+/*   #quienes-somos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+  h2.p-marca {
+    font-family: MiAvenirRegular;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #332F2E;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+p.p-modelo {
+  text-align: left;
+  color: #332F2E;
+  line-height: 14px;
+  font-size: 80%;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+p.p-cuotas {
+  margin: 0px;
+}
+
+.woocommerce-Price-amount.amount> bdi {
+  font-family: MiAvenirRegular;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  color: #332F2E;
+}
+
+h2.p-destacado {
+  top: 170px;
+}
+
+h2.p-destacado {
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
+  position: absolute;
+  /* width: 90px; */
+  height: 18px;
+  /* left: 129px; */
+  /* top: 190px; */
+  background: #0081BA;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 12px;
+  margin: 0px;
+  right: 10px;
+  align-content: center;
+  flex-direction: row;
+  top: 185px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control:focus {
+  border-color: #3a3a3a;
+  box-shadow: none;
+}
