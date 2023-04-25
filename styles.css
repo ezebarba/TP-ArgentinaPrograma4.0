@@ -33,6 +33,10 @@ body {
     background-color: #f7f7f7;
   }
 
+  .card-group {
+    display: flex;
+  }
+  
   .navbar-expand-lg {
     height: 100px;
     margin-bottom: 10px;
@@ -182,7 +186,9 @@ p.p-modelo {
 }
 
 p.p-cuotas {
-  margin: 0px;
+  font-family: MiAvenirRegular;
+  font-style: normal;
+  font-weight: 800
 }
 
 .woocommerce-Price-amount.amount> bdi {
@@ -225,4 +231,16 @@ h2.p-destacado {
 .form-control:focus {
   border-color: #3a3a3a;
   box-shadow: none;
+}
+
+.container2 {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+
+.error {
+  color: red;
 }
