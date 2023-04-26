@@ -1,4 +1,4 @@
-$("#contact-form").submit(function(event) {
+$("#submit").click(function(event) {
   event.preventDefault(); // Evita que la página se recargue
   alert('Se envio correctamente el formulario')
 });
@@ -41,31 +41,14 @@ $(document).ready(function() {
         minlength: 'El asunto debe tener al menos 10 caracteres'        
       }
     },
-    submitHandler: function(form) {
-      // Enviar el formulario si es válido
-      $.ajax({
-        type: 'POST',
-        url: 'send.php',
-        data: $(form).serialize(),
-        success: function(response) {
-          alert('¡Gracias por contactarnos! Nos pondremos en contacto con usted lo antes posible.');
-          form.reset();
-        },
-        error: function(response) {
-          alert('Ha ocurrido un error al enviar el mensaje. Por favor, inténtelo de nuevo más tarde.');
-        }
-      });
-    }
   });
 });
 
 
-$(document).ready(function() {
-  // ... Código del formulario de contacto ...
-  
+$(document).ready(function() {  
   // Listener para el botón de descarga
   $('#download-pdf').on('click', function() {
-    // Obtener la información del formulario
+    // Obtener la información del formulario y opciones
     var form = $('#contact-form')[0];
     var opt = {
       margin:       1,
